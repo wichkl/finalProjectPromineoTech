@@ -1,0 +1,10 @@
+spring:
+   datasource: 
+      username: inventory_management
+      password: inventory_management
+      url: jdbc:mysql://localhost:3306/inventory_management
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
